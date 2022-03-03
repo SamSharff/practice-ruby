@@ -1,3 +1,4 @@
+
 class Mugs
   attr_writer :price
 
@@ -7,6 +8,9 @@ class Mugs
     @input_material = input_options[:material]
   end
   
+  
+
+
   def print_info
     puts "This #{@input_color} mug is made of #{@input_material} is #{@input_price}"
   end
