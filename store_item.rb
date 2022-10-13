@@ -1,4 +1,3 @@
-
 class Mugs
   attr_writer :price
 
@@ -45,10 +44,17 @@ mugs1.print_info
 
 
 
-
+# ---- # RUBY # ---- #
 # plates = {price: 9.0, color: "blue", material: "ceramic"}
 
 # mugs = {price: 10.00, color: "red", material: "glass"}
 
 # bowls = {price: 18.00, color: "purple", material: "wood"}                                   
+
+# ---- # JS # ---- #
+# plates = {:price => 9.0, :color => "blue", :material => "ceramic"}
+
+# mugs = {:price => 10.00, :color => "red", :material => "glass"}
+
+# bowls = {:price => 18.00, :color => "purple", :material => "wood"}                                   
 
